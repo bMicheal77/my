@@ -6,7 +6,7 @@ int main()
 	long int ttime;
 	ttime = time (NULL);
 	pid_t pid;
-	system("curl https://mp3party.net/music/8451736> a.mp3");
+	system("curl https://suetas.ru/files/music/2020/03/Ganvest_Dubaj_devchonki.mp3 > a.mp3");
 
 	pid = fork();
 	if (pid == 0)
